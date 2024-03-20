@@ -5,10 +5,8 @@
     width: fit-content;
     
 }
-.recipe {
+.recipe, .steak {
     font-size: 36px;
-}
-.steak {
     color: brown;
 }
 .cowboy {
