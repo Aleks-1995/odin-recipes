@@ -1,0 +1,25 @@
+#odin {
+    font-size: 50px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    
+}
+.recipe {
+    font-size: 36px;
+}
+.steak {
+    color: brown;
+}
+.cowboy {
+    color: orangered;
+}
+.thin {
+    color: red;
+}
+#first {
+    color: brown;
+}
+body {
+    color: blue;
+}
