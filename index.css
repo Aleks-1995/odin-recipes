@@ -1,23 +1,53 @@
 #odin {
     font-size: 50px;
-    background-color: black;
-    color: white;
-    width: fit-content;
-    
+    color: black;
+    text-align: center;
 }
-.recipe, .steak {
-    font-size: 36px;
-    color: brown;
-}
+
+/*Wanted .recipe in index.html and .steak in steak.html to have the same size*/
 .cowboy {
     color: orangered;
 }
 .thin {
     color: red;
+    text-decoration: none;
 }
 #first {
     color: brown;
 }
-body {
-    color: blue;
+.steak {
+    color: brown;
 }
+.recipe li{
+    font-size: 46px;
+    font-weight: bold; /*700=bold*/
+}
+.ingredients-steak {
+    border: 2px solid brown;
+    margin-right: auto;
+    padding: 8px;
+    padding: right 2px;
+    width: fit-content;
+    font-size: 20px;
+    background-color: orange;
+}
+.ingredients-list{
+    border: 2px solid brown;
+    background-color: blue;
+    margin-right: auto;
+    margin-left: 10px;
+    width: fit-content;
+    padding: 8px;
+}
+
+.flex-container {
+    display: flex; 
+ }
+ 
+  /*this selector selects all divs inside of .flex-container */
+ .flex-container div {
+   background: peachpuff;
+   border: 4px solid brown;
+   height: 100px;
+    flex: 1; 
+ }
